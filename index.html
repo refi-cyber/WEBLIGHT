@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Conpatible" content="iE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mode gelap</title>
+    <style>
+        body{
+            padding:25px;
+            background-color:white;
+            Color:black;  
+            font-size:25px;
+        }
+        .gelap{
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="myfunction()">mode gelap</button>
+    <script>
+        function myfunction(){
+            var element = document.body;
+            element.classList.toggle("gelap")
+        }
+    </script>
+</body>
+</html>
